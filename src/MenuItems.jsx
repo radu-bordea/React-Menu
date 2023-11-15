@@ -1,6 +1,6 @@
 import React from "react";
 
-const MenuItems = ({img, title, price, description}) => {
+const MenuItems = ({img, title, price, desc}) => {
   return <article className="menu-item">
     <img src={img} alt={title} className="img" />
     <div className="item-info">
@@ -12,7 +12,7 @@ const MenuItems = ({img, title, price, description}) => {
                 {price}
             </span>
         </header>
-        <p className="item-text">{description}</p>
+        <p className="item-text">{desc}</p>
     </div>
   </article>
 };
